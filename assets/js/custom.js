@@ -11,6 +11,8 @@ $(document).ready(function () {
   $(".burgericon").on('click', function () {
     $("#header_wrapper").slideToggle();
     $("body").toggleClass("overflow")
+    $(".burgericon").toggleClass("openmenu")
+
     // $(".mainHeader_wrapper").toggleClass(".fullWidth_header")
   });
 
