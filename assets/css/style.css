@@ -204,8 +204,8 @@ transform: translate(50%, 50%);
   align-items: center;
 }
 .logo_mainWrapper .container .logo_left .sitelogo_wrapper{
-  width: 220px;
-  height: 53px;
+  max-width: 220px;
+  min-height: 53px;
   position: relative;
   left: 3px;
   display: flex;
@@ -240,8 +240,8 @@ transform: translate(50%, 50%);
 
 
 .logo_mainWrapper .container .logo_Right .todo_logo {
-  height: 50px;
-  width: 120px;
+  min-height: 50px;
+  max-width: 120px;
   margin-left: 30px;
   position: relative;
   right: 1px;
@@ -388,7 +388,7 @@ display: none;
   border: none;
   outline: none;
   border-radius: 20px;
-  width: 195px;
+  max-width: 195px;
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
@@ -627,8 +627,8 @@ display: none;
   }
   */
 .overlay_wrapper .swiper-slide .img_wrapper {
-  width: 88px;
-  height: 88px;
+  max-width: 88px;
+  min-height: 88px;
 }
 .overlay_wrapper .swiper-slide .img_wrapper img {
   object-fit: cover;
@@ -718,8 +718,8 @@ display: none;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.39);
 }
 .roundCol .Rcard_wrapper .Rcard .swiper-slide .RcardCircle_img {
-  width: 31px;
-  height: 31px;
+  max-width: 31px;
+  min-height: 31px;
   position: absolute;
   background-color: #fff;
   border-radius: 50%;
@@ -1449,8 +1449,8 @@ position: relative;
   transition: 0.5s all;
 }
 .footer_wrapper .container .footer_leftCol .card_wrapper .card .card_icons{
-  width: 84px;
-  height: 84px;
+  max-width: 84px;
+  min-height: 84px;
 }
 .footer_wrapper .container .footer_leftCol .card_wrapper .card .card_icons img{
   width: 100%;
@@ -1500,8 +1500,8 @@ position: relative;
 }
 
 .footer_wrapper .container .footer_rightCol .phone .footerContact_icon {
-  width: 40px;
-  height: 40px;
+  max-width: 40px;
+  min-height: 40px;
   padding:0 52px 0px 14px;
 }
 .footer_wrapper .container .footer_rightCol .phone .footerContact_icon img{
@@ -1662,8 +1662,8 @@ text-underline-offset: 2px;
   }
 
   .copyright .logo{
-    width: 170px;
-    height: 40px;
+    max-width: 170px;
+    min-height: 40px;
     position: relative;
     left: -50px;
     top: -4px;

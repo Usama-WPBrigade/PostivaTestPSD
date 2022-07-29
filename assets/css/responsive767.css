@@ -101,8 +101,8 @@
         display: none
     }
     .logo_mainWrapper .container .logo_left .sitelogo_wrapper{
-        width: 134px;
-        height: 33px;
+        max-width: 134px;
+        min-height: 33px;
         position: static;
         left: 0;
     }
@@ -189,7 +189,7 @@
     width: 100%;
 }
 .header_wrapper .container .serach .search_form input[type="search"]{
-    width: 100%;
+    max-width: 100%;
 }
 .header_wrapper .container .menu_list{
     width: 100%;
@@ -574,8 +574,8 @@ left: 17px;
   }
   
   .footer_wrapper .container .footer_rightCol .phone .footerContact_icon{
-    width: 22px;
-    height: 25px;
+    max-width: 22px;
+    min-height: 25px;
     padding: 0 40px 0px 1px;
   }
   .footer_wrapper .container .footer_rightCol .phone .footerContact_icon img{

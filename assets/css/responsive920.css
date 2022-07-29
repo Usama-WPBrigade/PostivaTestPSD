@@ -62,6 +62,6 @@
 
 @media screen and (max-width: 820px) {
     .header_wrapper .container .serach .search_form input[type="search"]{
-        width: 150px;
+        max-width: 150px;
     }
 }
