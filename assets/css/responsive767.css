@@ -155,9 +155,9 @@
     /*** *  Menu Navigation ********/ 
   .header_wrapper{
     height: calc(100vh - 90px);
-    /* overflow: hidden; */
     display: none;
-    position: relative;
+    position: absolute;
+    width: 100%;
   }
   .mobileLogo_wrapper logos_wrapper{
       box-shadow: -1px -11px 20px 0px rgba(0,0,0,0.3);
