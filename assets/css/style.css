@@ -205,7 +205,7 @@ transform: translate(50%, 50%);
 }
 .logo_mainWrapper .container .logo_left .sitelogo_wrapper{
   max-width: 220px;
-  min-height: 53px;
+  height: 53px;
   position: relative;
   left: 3px;
   display: flex;
@@ -226,7 +226,7 @@ transform: translate(50%, 50%);
   align-items: center;
 }
 .logo_mainWrapper .container .logo_Right .minhanciennda_logoWrapper{
-  width: 210px;
+  max-width: 210px;
   height: 50px;
   position: relative;
   left: 5px;
@@ -240,7 +240,7 @@ transform: translate(50%, 50%);
 
 
 .logo_mainWrapper .container .logo_Right .todo_logo {
-  min-height: 50px;
+  height: 50px;
   max-width: 120px;
   margin-left: 30px;
   position: relative;
@@ -628,7 +628,7 @@ display: none;
   */
 .overlay_wrapper .swiper-slide .img_wrapper {
   max-width: 88px;
-  min-height: 88px;
+  height: 88px;
 }
 .overlay_wrapper .swiper-slide .img_wrapper img {
   object-fit: cover;
@@ -719,7 +719,7 @@ display: none;
 }
 .roundCol .Rcard_wrapper .Rcard .swiper-slide .RcardCircle_img {
   max-width: 31px;
-  min-height: 31px;
+  height: 31px;
   position: absolute;
   background-color: #fff;
   border-radius: 50%;
@@ -1450,7 +1450,7 @@ position: relative;
 }
 .footer_wrapper .container .footer_leftCol .card_wrapper .card .card_icons{
   max-width: 84px;
-  min-height: 84px;
+  height: 84px;
 }
 .footer_wrapper .container .footer_leftCol .card_wrapper .card .card_icons img{
   width: 100%;
@@ -1501,7 +1501,7 @@ position: relative;
 
 .footer_wrapper .container .footer_rightCol .phone .footerContact_icon {
   max-width: 40px;
-  min-height: 40px;
+  height: 40px;
   padding:0 52px 0px 14px;
 }
 .footer_wrapper .container .footer_rightCol .phone .footerContact_icon img{
@@ -1663,7 +1663,7 @@ text-underline-offset: 2px;
 
   .copyright .logo{
     max-width: 170px;
-    min-height: 40px;
+    height: 40px;
     position: relative;
     left: -50px;
     top: -4px;
