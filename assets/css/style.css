@@ -39,11 +39,9 @@
 .topbar_wrapper .container{
 display: flex;
 justify-content: space-between;
-/* color: wheat; */
-/* background-color: red; */
 }
 .topbar_wrapper .container .left_tobar a{
-font-family: 'Helvetica';
+font-family: 'Helvetica',Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 12.658px;
@@ -60,9 +58,7 @@ transition: 0.3s all;
 .topbar_wrapper .container .left_tobar a:not(:last-child) {
 border-right: 1px solid white;
 }
-/* .topbar_wrapper .container .left_tobar a:not(:first-child) {
-border-right: 1px solid white;
-} */
+
 .topbar_wrapper .container .left_tobar .text1{
 background-color: #FF7500;
 border-right: none !important;
@@ -101,11 +97,10 @@ color: wheat;
 display: flex;
 height: 100%;
 justify-content: space-between;
-/* border-left: 1px solid white; */
 
 }
 .Right_tobar a{
-font-family: 'Titillium Web';
+font-family: 'Titillium Web',Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 11.567px;
@@ -167,10 +162,6 @@ background-repeat: no-repeat;
 width: 56px;
 height: 10px;
 top: 96%;
-
-
-/* box-shadow: 0px 1px 5px 1px rgba(225,226,226,0.75); */
-
 }
 .Toprt_innerRight::after{
   left: 0;
@@ -180,7 +171,6 @@ top: 96%;
 
 left: 23%;
 transform: translate(50%, 50%);
-/* box-shadow: 0px 1px 5px 1px rgba(225,226,226,0.75); */
 
 }
 
@@ -206,13 +196,9 @@ transform: translate(50%, 50%);
 .logo_mainWrapper .container .logo_left .sitelogo_wrapper{
   max-width: 220px;
   height: 53px;
-  position: relative;
-  left: 3px;
   display: flex;
 }
 .logo_mainWrapper .container .logo_left .sitelogo_wrapper img {
-  /* margin-top: -1px;
-  margin-left: 4px; */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -263,11 +249,7 @@ transform: translate(50%, 50%);
   background-color: #ff7500;
 
 }
-/* .fullWidth_header{
-  position: absolute;
-  top: 0;
-  width: 100%;
-} */
+
 
 .header_wrapper .container {
   display: flex;
@@ -298,7 +280,7 @@ display: none;
 }
 .header_wrapper .container .menu_list > .menu_items> li a {
   padding: 9px 9px;
-  font-family: "Helvetica";
+  font-family: "Helvetica",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -317,7 +299,6 @@ display: none;
   text-underline-offset: 5px;
 }
 .header_wrapper .container .serach {
-  /* border-left: 1px solid #ffb445; */
   border-right: 1px solid #ffb445;
   padding: 14px 4px 8px 9px;
 }
@@ -349,7 +330,6 @@ display: none;
 }
 .header_wrapper .container .menu_list .menu_items .dropdownwrapper li .MM_Col{
   list-style: none;
-  /* width: 33.33%; */
 }
 .header_wrapper .container .menu_list .menu_items .dropdownwrapper li .MM_Col li{
   padding: 0px 10px;
@@ -389,7 +369,7 @@ display: none;
   outline: none;
   border-radius: 20px;
   max-width: 195px;
-  font-family: "Helvetica";
+  font-family: "Helvetica",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -428,7 +408,6 @@ display: none;
   padding: 50px 0px;
 }
 .hero_wraper .container{
-  /* border: 1px solid black; */
   min-height: 355px;
   display: flex;
   align-items: flex-start;
@@ -436,12 +415,11 @@ display: none;
 
 .hero_wraper .container .content {
   max-width: 430px;
-  /* background-color: #03CA1B; */
   margin-left: 89px;
   margin-top: 52px;
 }
 .hero_wraper .container .content p {
-  font-family: "Helvetica";
+  font-family: "Helvetica",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -482,7 +460,7 @@ display: none;
   margin-left: 16px;
 }
 .hero_wraper .container .content p .Postiva {
-  font-family: "Helvetica";
+  font-family: "Helvetica",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 34.688px;
@@ -543,7 +521,7 @@ display: none;
 }
 
 .overlay_wrapper .swiper-slide p {
-  font-family: "Titillium Web";
+  font-family: "Titillium Web",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -560,7 +538,6 @@ display: none;
   background: linear-gradient(#737373bf, #373737),
     url("../img/overlay-background.jpg") no-repeat center;
   padding: 20px 30px;
-  /* border-right: 1px solid #FE7400; */
   background-size: cover;
   top: 100%;
   left: 0;
@@ -575,7 +552,7 @@ display: none;
   top: 0%;
 }
 .overlay_wrapper .swiper-slide .overlaydiv p {
-  font-family: "Helvetica";
+  font-family: "Helvetica",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -588,7 +565,7 @@ display: none;
   margin-bottom:13px ;
 }
 .overlay_wrapper .swiper-slide .overlaydiv button {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica ,Arial, Helvetica, sans-serifLight";
   font-style: normal;
   font-weight: 300;
   font-size: 12.744px;
@@ -620,12 +597,6 @@ display: none;
 }
 
 
-/* 
-.overlay_wrapper  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  */
 .overlay_wrapper .swiper-slide .img_wrapper {
   max-width: 88px;
   height: 88px;
@@ -674,7 +645,6 @@ display: none;
   margin: 0 9px 9px;
   padding: 4px 22px 0px 22px;
   flex-direction: column;
-  /* height: auto; */
 }
 /** First Card ***/
 
@@ -691,18 +661,7 @@ display: none;
   background-position: bottom;
   padding-bottom: 5px;
 }
-/* .roundCol .Rcard_wrapper .Rcard .swiper-slide h2::after {
-  content: '';
-  background-image: url("../img/dropdown_arrow.svg");
-  position: absolute;
-  top: 34px;
-  display: flex;
-  justify-content: center;
-  width: 9px;
-  height: 5px;
-  align-items: flex-end;
-  left: 50%;
-} */
+
 .roundCol .Rcard_wrapper .Rcard .swiper-slide .Rcardimg_wrapper {
   width: 144px;
   height: 144px;
@@ -730,8 +689,8 @@ display: none;
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  height: 31px;
-  width: 31px;
+  height: 100%;
+  width: 100%;
 }
 .roundCol .Rcard_wrapper .Rcard .swiper-slide p {
   font-family: "Segoe UI";
@@ -774,7 +733,6 @@ display: none;
 .roundCard_section .container .FormCol {
   width: 252px;
   border: 1px solid #d7d5d5;
- 
 }
 /*************** roundCard_section Sidebar ****************/
 .roundCard_section .container .FormCol .tab_btn {
@@ -788,7 +746,7 @@ display: none;
   width: 100%;
   border: none;
   padding: 9px 8px;
-  font-family: 'Helvetica';
+  font-family: 'Helvetica',Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -812,7 +770,7 @@ display: none;
   padding: 4px 20px;
 }
 .FormCol .Consulta_text p{
-  font-family: 'Helvetica';
+  font-family: 'Helvetica',Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -826,13 +784,12 @@ display: none;
   overflow: auto;
 }
 .roundCard_section .FormCol .tabcontent form .formfield label{
-  font-family: 'Helvetica';
+  font-family: 'Helvetica',Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #686868;
-  /* margin-bottom: 6px; */
 }
 .roundCard_section .formfield #Formlist{
 width: 100%;
@@ -856,7 +813,7 @@ outline: none;
 }
 .roundCard_section .form input[type=submit]{
   width: 100%;
-  font-family: 'Helvetica';
+  font-family: 'Helvetica',Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16.585px;
@@ -944,7 +901,6 @@ outline: none;
 /*********** mecan_wrapper *************/
 .mecan_wrapper{
   background:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.456)),url('../img/mecanismos_background.jpg');
- /* background-image: url('../img/mecanismos_background.jpg'); */
   padding:23px 115px 32px 32px;
   display: flex;
   justify-content: flex-end;
@@ -957,7 +913,7 @@ outline: none;
   text-align: center;
 }
 .mecan_wrapper .mecan_container h2{
-  font-family: 'Helvetica Compressed';
+  font-family: 'Helvetica Compressed',Arial, Helvetica, sans-serif ;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -976,7 +932,6 @@ outline: none;
   text-align: center;
   letter-spacing: 0.15px;
   color: #FD7605;
-  /* margin-bottom: 12px; */
 }
 
 .mecan_wrapper .mecan_container .mecan_btn{
@@ -1010,19 +965,6 @@ outline: none;
 }
 
 
-
-/* .mecan_container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-/* .mecan_wrapper img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-} */
-
 /************* Leyde_wrapper ***************/
 .Leyde_wrapper{
   display: flex;
@@ -1038,12 +980,10 @@ outline: none;
 .Leyde_wrapper .left_col{
 object-fit: contain;
 position: relative;
-/* left: 16px; */
 }
 
 
 .Leyde_wrapper .left_col img{
-  /* width: 100%; */
 }
 
 .Leyde_wrapper .right_col{
@@ -1055,12 +995,6 @@ position: relative;
   height: 100%;
 }
 
-/* .Leyde_wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-} */
 /*************** Notices Content ***********/
 .Third_section .container .content_col .noticas_wrapper .content {
   padding: 30px 17px 11px;
@@ -1071,7 +1005,7 @@ position: relative;
   margin-bottom: auto;
 }
 .Third_section .container .content_col .noticas_wrapper .content .data h2 {
-  font-family: "Titillium Web";
+  font-family: "Titillium Web",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -1196,9 +1130,7 @@ position: relative;
   bottom: 15px;
 }
 
-/* .banner_section .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-  left: 7px;
-} */
+
 /******************* Side bar******************/
 .Third_section .container .sidebar {
   width: 252px;
@@ -1237,7 +1169,7 @@ position: relative;
   border: 1px solid #d7d5d5;
 }
 .Third_section .container .sidebar .newletter_wrapper h2 {
-  font-family: "Titillium Web";
+  font-family: "Titillium Web",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -1438,7 +1370,6 @@ position: relative;
 .footer_wrapper .container .footer_leftCol .card_wrapper .card {
   width: calc(33.33% - 28px);
   margin: 0px 14px 14px;
-  /* border: 1px solid #98A1A7; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1460,7 +1391,6 @@ position: relative;
 
 .footer_wrapper .container .footer_leftCol .card_wrapper .card:hover {
   box-shadow: 2px 2px 10px #ffa70e65;
-  /* border: 1px solid #98A1A7; */
 }
 
 .footer_wrapper .container .footer_leftCol .card_wrapper .card p {

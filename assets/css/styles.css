@@ -32,8 +32,7 @@
 .topbar_wrapper .container{
   display: flex;
   justify-content: space-between;
-  /* color: wheat; */
-  /* background-color: red; */
+
 }
 .topbar_wrapper .container .left_tobar a{
   font-family: 'Helvetica';
@@ -48,9 +47,7 @@
 .topbar_wrapper .container .left_tobar a:not(:last-child) {
   border-right: 1px solid white;
 }
-/* .topbar_wrapper .container .left_tobar a:not(:first-child) {
-  border-right: 1px solid white;
-} */
+
 .topbar_wrapper .container .left_tobar .text1{
 background-color: #FF7500;
 border-right: none !important;
@@ -78,7 +75,6 @@ padding: 6px 11px;
   display: flex;
   height: 100%;
   justify-content: space-between;
-  /* border-left: 1px solid white; */
   
 }
 .Right_tobar a{

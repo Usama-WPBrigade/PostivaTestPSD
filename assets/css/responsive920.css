@@ -31,7 +31,6 @@
         display: none;
     }
 .overlay_wrapper .swiper-wrapper{
-    /* width:100%; */
     flex-wrap: wrap;
 }
 .overlay_wrapper  .swiper-slide {
